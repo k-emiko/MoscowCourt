@@ -1,0 +1,394 @@
+[[scenario]]
+display_icon = "normal"
+emote_file = "/normal"
+display_name = "Normal"
+
+[[scenario]]
+display_icon = "nod"
+emote_anim_file = "default/normal_anim_nod"
+emote_file = "/normal"
+display_name = "Nod"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "shake"
+emote_anim_file = "default/normal_anim_shake"
+emote_file = "/normal"
+display_name = "Shake"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "coin"
+emote_anim_file = "default/coin_pre"
+emote_file = "/coin"
+display_name = "Coin"
+
+[[scenario]]
+display_icon = "coinTN"
+emote_anim_file = "default/coin_post"
+emote_file = "/normal"
+display_name = "CoinTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "disagree"
+emote_anim_file = "default/disagree_pre"
+emote_file = "/disagree"
+display_name = "Disagree"
+
+[[scenario]]
+display_icon = "disagreeTN"
+emote_anim_file = "default/disagree_post"
+emote_file = "/normal"
+display_name = "DisagreeTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "annoyed"
+emote_anim_file = "default/annoyed_pre"
+emote_file = "/annoyed"
+display_name = "Annoyed"
+
+[[scenario]]
+display_icon = "annoyedTN"
+emote_anim_file = "default/annoyed_post"
+emote_file = "/normal"
+display_name = "AnnoyedTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "humph"
+emote_anim_file = "default/humph_pre"
+emote_file = "/humph"
+display_name = "Humph"
+
+[[scenario]]
+display_icon = "humphTN"
+emote_anim_file = "default/humph_post"
+emote_file = "/normal"
+display_name = "HumphTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "angry"
+emote_anim_file = "default/angry_pre"
+emote_file = "/angry"
+display_name = "Angry"
+
+[[scenario]]
+display_icon = "angryTN"
+emote_anim_file = "default/angry_post"
+emote_file = "/normal"
+display_name = "AngryTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "think"
+emote_anim_file = "default/think_pre"
+emote_file = "/think"
+display_name = "Think"
+
+[[scenario]]
+display_icon = "thinkTN"
+emote_anim_file = "default/think_post"
+emote_file = "/normal"
+display_name = "ThinkTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "what"
+emote_anim_file = "default/what_pre"
+emote_file = "/what"
+display_name = "What"
+
+[[scenario]]
+display_icon = "whatTN"
+emote_anim_file = "default/what_post"
+emote_file = "/normal"
+display_name = "WhatTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "front"
+emote_anim_file = "default/front_pre"
+emote_file = "/front"
+display_name = "Front"
+
+[[scenario]]
+display_icon = "frontTN"
+emote_anim_file = "default/front_post"
+emote_file = "/normal"
+display_name = "FrontTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "tantrum"
+emote_anim_file = "default/tantrum_pre"
+emote_file = "/tantrum"
+display_name = "Tantrum"
+
+[[scenario]]
+display_icon = "tantrumTN"
+emote_anim_file = "default/tantrum_post"
+emote_file = "/normal"
+display_name = "TantrumTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "worried"
+emote_anim_file = "default/worried_pre"
+emote_file = "/worried"
+display_name = "Worried"
+
+[[scenario]]
+display_icon = "worriedTN"
+emote_anim_file = "default/worried_post"
+emote_file = "/normal"
+display_name = "WorriedTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "surprised"
+emote_anim_file = "default/surprised_pre"
+emote_file = "/surprised"
+display_name = "Surprised"
+
+[[scenario]]
+display_icon = "surprisedTN"
+emote_anim_file = "default/surprised_post"
+emote_file = "/normal"
+display_name = "SurprisedTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "damage"
+emote_anim_file = "default/damage_pre"
+emote_file = "/damage"
+display_name = "Damage"
+
+[[scenario]]
+display_icon = "damageTN"
+emote_anim_file = "default/damage_post"
+emote_file = "/normal"
+display_name = "DamageTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "sad"
+emote_anim_file = "default/sad_pre"
+emote_file = "/sad"
+display_name = "Sad"
+
+[[scenario]]
+display_icon = "sadANIMwipe"
+emote_anim_file = "default/sad_anim_wipe"
+emote_file = "/sad"
+display_name = "SadWipeTears"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "sadTN"
+emote_anim_file = "default/sad_post"
+emote_file = "/normal"
+display_name = "SadTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "cry"
+emote_anim_file = "default/cry_pre_sad"
+emote_file = "/cry"
+display_name = "Cry"
+
+[[scenario]]
+display_icon = "cryANIMwipe"
+emote_anim_file = "default/cry_anim_wipe"
+emote_file = "/cry"
+display_name = "CryWipeTears"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "tearsofjoy"
+emote_anim_file = "default/tearsofjoy_pre_cry"
+emote_file = "/tearsofjoy"
+display_name = "TearsOfJoy"
+
+[[scenario]]
+display_icon = "badge"
+emote_anim_file = "default/badge_pre"
+emote_file = "/badge"
+display_name = "Badge"
+
+[[scenario]]
+display_icon = "badgeTN"
+emote_anim_file = "default/badge_post"
+emote_file = "/normal"
+display_name = "BadgeTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "proud"
+emote_anim_file = "default/proud_pre"
+emote_file = "/proud"
+display_name = "Proud"
+
+[[scenario]]
+display_icon = "proudTN"
+emote_anim_file = "default/proud_post"
+emote_file = "/normal"
+display_name = "ProudTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "point"
+emote_anim_file = "default/point_pre"
+emote_file = "/point"
+display_name = "Point"
+
+[[scenario]]
+display_icon = "pointTN"
+emote_anim_file = "default/point_post"
+emote_file = "/normal"
+display_name = "PointTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "salute"
+emote_anim_file = "default/salute_pre"
+emote_file = "/salute"
+display_name = "Salute"
+
+[[scenario]]
+display_icon = "saluteTN"
+emote_anim_file = "default/salute_post"
+emote_file = "/normal"
+display_name = "SaluteTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "ponder"
+emote_anim_file = "default/ponder_pre"
+emote_file = "/ponder"
+display_name = "Ponder"
+
+[[scenario]]
+display_icon = "ponderTN"
+emote_anim_file = "default/ponder_post"
+emote_file = "/normal"
+display_name = "PonderTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "hold"
+emote_anim_file = "default/toby-hold_pre"
+emote_file = "/toby-hold"
+display_name = "HoldToby"
+
+[[scenario]]
+display_icon = "holdANIMbark"
+emote_anim_file = "default/toby-hold_anim_bark"
+emote_file = "/toby-hold"
+display_name = "BarkToby"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "holdTN"
+emote_anim_file = "default/toby-hold_post"
+emote_file = "/normal"
+display_name = "HoldTobyTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "lick"
+emote_anim_file = "default/toby-lick_pre_toby-hold"
+emote_file = "/toby-lick"
+display_name = "LickToby"
+
+[[scenario]]
+display_icon = "lickTH"
+emote_anim_file = "default/toby-hold_pre_toby-lick"
+emote_file = "/toby-hold"
+display_name = "LickTobyTH"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "sniff"
+emote_file = "/toby-sniff"
+display_name = "SniffToby"
+
+[[scenario]]
+display_icon = "turn"
+emote_anim_file = "default/toby-turn_pre_toby-sniff"
+emote_file = "/toby-turn"
+display_name = "TurnToby"
+
+[[scenario]]
+display_icon = "excited"
+emote_anim_file = "default/toby-excited_pre_toby-turn"
+emote_file = "/toby-excited"
+display_name = "ExcitedToby"
+
+[[scenario]]
+display_icon = "bomb"
+emote_file = "/bomb"
+display_name = "Bomb"
+
+[[scenario]]
+display_icon = "tantrum-heave"
+emote_anim_file = "default/tantrum-heave_pre"
+emote_file = "/tantrum-heave"
+display_name = "TantrumHeave"
+
+[[scenario]]
+display_icon = "cry-shake"
+emote_anim_file = "default/cry-shake_pre_tantrum-heave"
+emote_file = "/cry-shake"
+display_name = "CryShake"
+
+[[scenario]]
+display_icon = "pain"
+emote_anim_file = "default/pain_pre_cry-shake"
+emote_file = "/pain"
+display_name = "Pain"
+
+[[scenario]]
+display_icon = "pain-lean"
+emote_anim_file = "default/pain-lean_pre_pain"
+emote_file = "/pain-lean"
+display_name = "PainLean"
+
+[[scenario]]
+display_icon = "painTS"
+emote_anim_file = "default/sad_pre_pain"
+emote_file = "/sad"
+display_name = "PainTS"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "jail"
+emote_anim_file = "default/jail_pre"
+emote_file = "/jail"
+display_name = "Jail"
+
+[[scenario]]
+display_icon = "jail-pull"
+emote_anim_file = "default/jail_pre"
+emote_file = "/jail-pull"
+display_name = "JailPull"
+
+[[scenario]]
+display_icon = "hand"
+emote_anim_file = "default/hand_pre_jail"
+emote_file = "/hand"
+display_name = "Hand"
+
+[[scenario]]
+display_icon = "handTN"
+emote_anim_file = "default/hand_post"
+emote_file = "/normal"
+display_name = "HandTN"
+rules = {play_anim=true}
+
+[[scenario]]
+display_icon = "heart"
+emote_file = "/heart"
+display_name = "Heart"
