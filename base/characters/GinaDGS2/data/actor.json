@@ -1,0 +1,12 @@
+{
+    "chatbox_name": "dgs",
+    "position_name": "wit",
+    "presets": [
+        {
+            "blip_file": "female",
+            "display_name": "Gina"
+        }
+    ],
+    "shout_name": "dgs",
+    "target_name": "GinaDGS2"
+}
