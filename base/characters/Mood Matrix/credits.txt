@@ -1,0 +1,6 @@
+This is not a rip, but an attempt to recreate Mood Matrix, so don't expect 100% accuracy. Still, I tried to include every possible emote combination, so I do hope you will find this useful. Enjoy your anime therapy sessions!
+
+Credits:
+Graphics, animation, icons, ini: NN (親分#2680)
+Sounds: noise level change sounds, as well as "mm-update" and "mm-resume" are from Dreamy Theatre, the rest were ripped by USER
+Moral support: Agasferus, Dogy, Esq., Feenie, Pipis. Love you guys <3
