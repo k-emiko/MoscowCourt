@@ -2,63 +2,68 @@ QLabel {
 	color:white;
 	background-color:transparent;
 }
-
 QCheckBox {
 	color:white;
-	background-color:transparent;
-}
+	background-color:transparent;}
 QCheckBox::indicator:unchecked {
-    /*image: url(check_hover.png);*/}
-QCheckBox::indicator:hover {
-    image: url(check_hover.png);}
-QCheckBox::indicator:pressed {
-    image: url(check_checked.png);}
+    image: url("base/themes/MoscowCourtroom/check_unchecked.png");}
+QCheckBox::indicator:active:hover {
+    image: url("base/themes/MoscowCourtroom/check_hover.png");}
+QCheckBox::indicator:checked {
+    image: url("base/themes/MoscowCourtroom/check_checked.png");}
+
+/*music slider*/
+QSlider::handle:horizontal {
+    image: url("base/themes/MoscowCourtroom/scrollbar.png");}
+QSlider::groove:horizontal {
+    image: url("base/themes/MoscowCourtroom/scrollbar_frame.png");}
+
+QTreeWidget::QScrollbar:vertical {
+    background-color:blue}
+
+/*friggin dropdowns*/
 QComboBox {
 	border: 1px solid rgba(255, 255, 255, 100);
     background-color: rgb(48, 138, 187);
 	color: white;
 	border-radius: 1px;
-	border-color: white
-}
+	border-color: white}
 QComboBox::editable {
     color: white;
-    background-color: rgb(48, 138, 187);
-}
+    background-color: rgb(48, 138, 187);}
 QComboBox::item:hover {
     color: black;
-    background-color: rgb(255, 195, 30)
-}
+    background-color: rgb(255, 195, 30)}
 QComboBox::item:selected {
     color: black;
-    background-color: rgb(255, 195, 30)
-}
+    background-color: rgb(255, 195, 30)}
+
 QAbstractItemView {
 	border-radius: 1px;
-	selection-background-color: darkgreen;
-}
+	background-color: rgba(0, 0, 0, 100);}
+
 /*music/are lists*/
 QAbstractItemView::item {
-    margin: 2px;
+    margin: 3px;
     border: 1px solid rgba(255, 255, 255, 100);
     color: white;
     background-color: rgb(48, 138, 187)}
 QAbstractItemView::item:selected {
-    margin: 2px;
+    margin: 3px;
     border: 2px solid rgba(255, 255, 255, 100);
     color: white;
     background-color: rgb(255, 195, 30)}
 QAbstractItemView::item:hover {
-    margin: 2px;
-    border: 2px solid rgba(255, 255, 255, 100);
+    margin: 3px;
+    border: 1px solid rgba(255, 255, 255, 100);
     color: white;
     background-color: rgb(255, 195, 30)}
 
 QListView {
 	color: white;
-	background-color:solid rgba(256, 256, 256, 50);
-	selection-background-color: darkgreen;
-}
+	background-color:solid rgba(256, 256, 256, 256);}
 
 QLineEdit {
 	color:white;
+    background-color: transparent;
 }
