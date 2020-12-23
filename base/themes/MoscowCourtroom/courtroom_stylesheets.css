@@ -7,30 +7,58 @@ QCheckBox {
 	color:white;
 	background-color:transparent;
 }
-
+QCheckBox::indicator:unchecked {
+    /*image: url(check_hover.png);*/}
+QCheckBox::indicator:hover {
+    image: url(check_hover.png);}
+QCheckBox::indicator:pressed {
+    image: url(check_checked.png);}
 QComboBox {
-	border: 1px solid rgba(255, 0, 255, 150);
-	background-color: darkgray;
-	color: black;
-	border-radius: 3px;
-	border-color: black
+	border: 1px solid rgba(255, 255, 255, 100);
+    background-color: rgb(48, 138, 187);
+	color: white;
+	border-radius: 1px;
+	border-color: white
 }
-
+QComboBox::editable {
+    color: white;
+    background-color: rgb(48, 138, 187);
+}
+QComboBox::item:hover {
+    color: black;
+    background-color: rgb(255, 195, 30)
+}
+QComboBox::item:selected {
+    color: black;
+    background-color: rgb(255, 195, 30)
+}
 QAbstractItemView {
-	border: 0px solid darkgray;
-	background-color: darkgray;
-	color: black;
-	border-radius: 0px;
+	border-radius: 1px;
 	selection-background-color: darkgreen;
 }
+/*music/are lists*/
+QAbstractItemView::item {
+    margin: 2px;
+    border: 1px solid rgba(255, 255, 255, 100);
+    color: white;
+    background-color: rgb(48, 138, 187)}
+QAbstractItemView::item:selected {
+    margin: 2px;
+    border: 2px solid rgba(255, 255, 255, 100);
+    color: white;
+    background-color: rgb(255, 195, 30)}
+QAbstractItemView::item:hover {
+    margin: 2px;
+    border: 2px solid rgba(255, 255, 255, 100);
+    color: white;
+    background-color: rgb(255, 195, 30)}
 
 QListView {
-	color: black;
-	background-color:darkgray;
+	color: white;
+	background-color:solid rgba(256, 256, 256, 50);
 	selection-background-color: darkgreen;
 }
 
 QLineEdit {
 	color:white;
-	background-color:dimgray;
 }
