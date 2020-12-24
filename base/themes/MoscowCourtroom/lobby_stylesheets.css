@@ -1,1 +1,12 @@
-QListView::item { padding-left: 0px; }
+QListView::item { 
+padding-left: 1px; }
+AOTextArea {color: rgba(0,0,0,150)}
+
+QTreeView::item {background-color: rgba(0,0,0,150)}
+QTreeWidget::HeaderLabels {
+color:blue}
+
+QLineEdit {
+color: black}
+
+

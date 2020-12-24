@@ -12,12 +12,13 @@ QCheckBox::indicator:active:hover {
 QCheckBox::indicator:checked {
     image: url("base/themes/MoscowCourtroom/check_checked.png");}
 
-/*music slider*/
+/*sound sliders*/
 QSlider::handle:horizontal {
     image: url("base/themes/MoscowCourtroom/scrollbar.png");}
 QSlider::groove:horizontal {
     image: url("base/themes/MoscowCourtroom/scrollbar_frame.png");}
 
+/*doesn't do anything currently*/
 QTreeWidget::QScrollbar:vertical {
     background-color:blue}
 
@@ -42,7 +43,7 @@ QAbstractItemView {
 	border-radius: 1px;
 	background-color: rgba(0, 0, 0, 100);}
 
-/*music/are lists*/
+/*music/area lists*/
 QAbstractItemView::item {
     margin: 3px;
     border: 1px solid rgba(255, 255, 255, 100);
@@ -55,13 +56,17 @@ QAbstractItemView::item:selected {
     background-color: rgb(255, 195, 30)}
 QAbstractItemView::item:hover {
     margin: 3px;
-    border: 1px solid rgba(255, 255, 255, 100);
+    border: 2px solid rgba(255, 255, 255, 100);
     color: white;
     background-color: rgb(255, 195, 30)}
 
+AOButton::ui_ooc_toggle {
+color: red;
+background-color: yellow}
+
 QListView {
 	color: white;
-	background-color:solid rgba(256, 256, 256, 256);}
+	background-color: rgba(0, 0, 0, 150);}
 
 QLineEdit {
 	color:white;
