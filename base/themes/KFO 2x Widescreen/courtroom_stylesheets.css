@@ -1,36 +1,86 @@
 QLabel {
-	color:white;
-	background-color:transparent;
+	color: white;
+	background-color: transparent;
 }
+
+/*QPushButton: {} всё нажимаемое, кроме кнопки server*/
 
 QCheckBox {
 	color:white;
 	background-color:transparent;
 }
 
-QComboBox {
-	border: 1px solid rgba(255, 0, 255, 150);
-	background-color: darkgray;
-	color: black;
-	border-radius: 3px;
-	border-color: black
+QComboBox {/*dropdown menus*/
+	border: 1px solid rgba(255, 0, 255, 100);
+	background-color: rgba(43, 133, 182, 250);
+	color: white;
+    padding-left: 5px;
+	border-radius: 1px;
+	border-color: rgba(255, 255, 255, 150);
+}
+QComboBox:editable {/*dropdowns for iniswaps and sfx*/
+    background-color: rgba(43, 133, 182, 250);
+}
+QComboBox:item {/*list inside comboboxes*/
+    color: white;
+    background-color: rgba(43, 133, 182, 250);}
+QComboBox:item:selected {/*list inside comboboxes*/
+    border: 2px solid rgba(255, 195, 29, 250);
+    padding-left: 20px;
+}
+QComboBox:item:checked {/*list inside comboboxes*/
+    color: white;
+    background-color: rgba(251, 194, 36, 250);}
+/*QComboBox::indicator{this is related to the tick mark smh}*/
+/* Background color of popup-list.
+QComboBox QListView{
+    background-color:white;
+    border:1px solid gray;
+} */ 
+QComboBox::drop-down {/*the arrow part*/
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    color: black;
+    width: 15px;
+    border-left-width: 1px;
+    border-left-color: rgba(255, 255, 255, 150);
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 1px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 1px;
 }
 
-QAbstractItemView {
+QAbstractItemView {/*musiclist*/
 	border: 0px solid darkgray;
-	background-color: darkgray;
-	color: black;
-	border-radius: 0px;
-	selection-background-color: darkgreen;
+	background-color: transparent;
+	color: white;
 }
 
-QListView {
-	color: black;
-	background-color:darkgray;
-	selection-background-color: darkgreen;
-}
+QSpinBox {background-color: rgba(0, 0, 0, 190);}/*offset %*/
 
-QLineEdit {
+
+QListView {/*mute and pair lists*/
+    background-color: rgba(0, 0, 0, 190);
+} 
+QListView:item {
+    color: white;
+    margin: 3px;
+    border: 1px solid white;
+    background-color: rgba(43, 133, 182, 250);}
+QListView:item:hover {
+    color: white;
+    border: 2px solid rgba(255, 195, 29, 250);
+}
+QListView:item:selected {
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(251, 194, 36, 250);}
+
+
+
+
+
+
+QLineEdit {/*text input fields*/
 	color:white;
-	background-color:dimgray;
+	background-color:rgba(43, 133, 182, 250);
 }

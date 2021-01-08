@@ -1,0 +1,20 @@
+
+base/callwords.ini
+_zoom.apng
+zoom (copy).apng
+*.so
+*.sh
+base/themes
+logs
+*.db
+*.db:encryptable
+*_on.png
+Attorney_Online
+Attorney_Online.exe
+base/config.ini
+bass.dll
+bassopus.dll
+discord-rpc.dll
+LICENSE.txt
+README.md.txt
+rules.ini
