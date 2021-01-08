@@ -2,8 +2,6 @@
 Attorney_Online
 Attorney_Online.exe
 base/callwords.ini
-base/characters
-base/sounds
 logs
 run.sh
 rules.ini
